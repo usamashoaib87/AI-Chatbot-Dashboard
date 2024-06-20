@@ -1,0 +1,137 @@
+.data {
+
+    .header1 {
+        display: flex;
+        align-items: center;
+        margin: 10px 30px 25px 50px;
+
+
+        h1 {
+            margin-right: 1030px;
+            font-size: 24px;
+            font-weight: 700;
+
+        }
+
+        :nth-child(2) {
+            margin-right: 15px;
+            font-size: 20px;
+        }
+
+        :nth-child(3) {
+            font-size: 20px;
+
+        }
+    }
+
+    .assistant-customization {
+        margin-left: 50px;
+
+        :nth-child(1) {
+            color: rgba(94, 98, 120, 1);
+            font-weight: 600;
+            font-size: 16px;
+            font-family: Inter;
+        }
+
+        .bot-profile-picture {
+            img {
+                margin: 15px 0px 15px 15px;
+            }
+
+            p {
+                color: rgba(161, 165, 183, 1);
+                font-weight: 600;
+                font-size: 16px;
+                font-family: Inter;
+
+            }
+        }
+
+        .bot-theme,
+        .bot-message-color,
+        .user-message-color,
+        .accents-color,
+        .background-color,
+        .sidebar-color {
+            display: flex;
+            align-items: center;
+
+            input {
+                width: 50px;
+                margin: 10px 0px 10px 10px;
+            }
+        }
+
+        .bot-first-message {
+            input {
+                width: 300px;
+                margin-top: 10px;
+                height: 30px;
+            }
+        }
+
+        button {
+            border-radius: 6px;
+            background-color: #0C0698;
+            width: 140px;
+            height: 30px;
+            color: white;
+            margin-top: 15px;
+        }
+    }
+
+    .smallbox {
+        width: 450px;
+        height: 550px;
+        background: rgba(255, 255, 255, 1);
+        position: absolute;
+        top: 15%;
+        right: 20%;
+        border-radius: 12px;
+        box-shadow: 0px 4px 32.4px 0px rgba(0, 0, 0, 0.06);
+
+        .header2 {
+            background-color: #0C0698;
+            height: 70px;
+            border-radius: 12px 12px 0px 0px;
+
+            img {
+                margin: 15px 0px 0px 10px;
+            }
+        }
+
+        .content {
+
+            p {
+                font-weight: 700;
+                font-family: Helvetica;
+                font-size: 20px;
+                text-align: center;
+                margin-top: 190px;
+
+            }
+        }
+
+        input {
+            background: rgba(235, 235, 235, 1);
+            border-radius: 12px;
+            height: 40px;
+            border: none;
+            width: 370px;
+            margin: 210px 0px 0px 10px;
+        }
+
+        .foot {
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .reco {
+                margin: 210px 10px 0px 0px;
+            }
+
+        }
+    }
+}

@@ -1,0 +1,71 @@
+.header {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    margin: 20px 30px 20px 50px;
+
+    input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background: rgba(255, 255, 255, 1);
+
+    }
+
+    div {
+        width: 100px;
+        height: 25px;
+        padding: 8px 0px 0px 5px;
+        border-radius: 8px;
+        background: rgba(238, 238, 238, 1);
+        margin: 15px 750px 13px 10px;
+
+        p {
+            width: 90px;
+        }
+    }
+}
+
+.app {
+
+    .second {
+        display: flex;
+        margin-top: 40px;
+
+        img {
+            margin-right: 900px;
+            margin-left: 50px;
+        }
+
+        button {
+            width: 160px;
+            height: 38px;
+            padding: 9px 9px 9px 9px;
+            color: white;
+            border-radius: 8px;
+            background: rgb(12, 6, 152);
+            border-style: none;
+        }
+    }
+}
+
+.add-data-modal.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+
+}
+
+.color {
+    width: 900px;
+    height: 450px;
+    background-color: white;
+    z-index: 10;
+}

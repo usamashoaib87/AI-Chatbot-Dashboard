@@ -1,0 +1,137 @@
+.chat-detail-container {
+    width: 900px;
+    height: 699px;
+    padding-left: 380px;
+    position: absolute;
+    top: 0;
+
+    .chat-detail-header {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+
+        button {
+            margin-left: 590px;
+            background-color: rgba(12, 6, 152);
+            border-radius: 8px;
+            color: white;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        h2 {
+            margin-top: 10px;
+        }
+
+        :nth-child(3),
+        :nth-child(4) {
+            margin-top: 10px;
+            font-size: 25px;
+            margin-left: 5px;
+        }
+    }
+
+    .chat-detail-messages {
+        padding: 20px;
+        max-height: 500px;
+        overflow-y: scroll;
+
+        .message-time1 {
+            text-align: center;
+
+        }
+
+        .chat-message1 {
+            margin-left: 470px;
+        }
+
+        .chat-message3 {
+            margin-left: 260px;
+        }
+    }
+}
+
+.chat-detail-messages::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+
+
+.chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    padding-right: 10px;
+
+    :nth-child(2) {
+        position: absolute;
+        right: 110px;
+    }
+
+    :nth-child(3) {
+        position: absolute;
+        right: 80px;
+    }
+
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    border: 0px solid #e0e0e0;
+    border-radius: 5px;
+    margin-right: 10px;
+    background: rgba(235, 235, 235, 1);
+    height: 40px;
+}
+
+.send-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat-detail-header {
+    position: relative;
+}
+
+.popup {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    display: none;
+
+    .box {
+        width: 800px;
+        height: 200px;
+        background-color: white;
+
+        :nth-child(2) {
+            font-family: Helvetica;
+            font-size: 24px;
+            font-weight: 400;
+            margin-top: 0px;
+            margin-left: 30px;
+        }
+
+        :nth-child(3) {
+            margin: 30px 0px 5px 30px;
+        }
+
+        select {
+            height: 40px;
+            width: 740px;
+            margin-left: 30px;
+            background: rgba(241, 241, 242, 1);
+        }
+    }
+}

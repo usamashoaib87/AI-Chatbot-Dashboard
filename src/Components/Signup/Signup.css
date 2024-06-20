@@ -1,0 +1,68 @@
+
+.header {
+    height: 60px;
+    border-bottom: 1px solid gray;
+}
+.header img {
+    width: 100px;
+    height: 25px;
+    margin: 15px 0px 0px 40px;
+    mix-blend-mode: difference;
+}
+.wrapper {
+    position: relative;
+}
+
+.signinform {
+    width: 420px;
+    height: 550px;
+    position: absolute;
+    top:750%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0px 4px 32.4px 0px rgba(0, 0, 0, 0.06);
+    background-color: rgba(255, 255, 255, 1);
+    padding: 25px 25px 25px 25px;
+    
+}
+.chatbot-container{
+    position: absolute;
+    top:35%;
+    left: 10%;
+    transform: translate(10%, 0%);
+    width: 470px;
+    height: 420px;
+}
+.chatbot{
+    width: 430px;
+    height: 130px;
+}
+.chatbot p{
+    color: rgba(116, 116, 116, 1);
+    width: 430px;
+    height: 40px;
+}
+.card-stack {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px;
+    margin-bottom: -50%;
+    position: relative; 
+  }
+.card1{
+    margin-bottom: -17%;
+    z-index: 3;
+    margin-left: 70px;
+    
+}
+.card2{
+    margin-bottom: -11%;
+    z-index: 1;
+    
+}
+#FP{
+    margin-left: 90px;
+}

@@ -1,0 +1,23 @@
+.sidebar {
+  width: 250px;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  padding: 15px 15px 15px 15px;
+}
+.sidebar .inner {
+  width: 250px;
+  height: 32px;
+}
+.sidebar .inner img {
+  width: 100px;
+  height: 25px;
+}
+.sidebar .inner .topicon {
+  width: 30px;
+  height: 25px;
+  margin: 5px 0px 0px 100px;
+}

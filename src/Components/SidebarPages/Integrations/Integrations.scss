@@ -1,0 +1,112 @@
+.data {
+    .head {
+        display: flex;
+        align-items: center;
+        margin: 30px 30px 30px 50px;
+
+        h1 {
+            margin-right: 1050px;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+        :nth-child(2) {
+            margin-right: 15px;
+            font-size: 20px;
+        }
+
+        :nth-child(3) {
+            font-size: 20px;
+
+        }
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 30px;
+        margin: 20px 25px 20px 45px;
+
+        div {
+
+            height: 270px;
+            background-color: rgba(255, 255, 255, 1);
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            :nth-child(1) {
+                width: 80px;
+                height: 80px;
+                margin-bottom: 40px;
+            }
+
+            :nth-child(2) {
+                width: 100px;
+                height: auto;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .btn {
+        background-color: rgb(12, 6, 152);
+        border-radius: 8px;
+    }
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+
+    .inner {
+        width: 700px;
+        height: 350px;
+        background-color: white;
+        z-index: 10;
+
+        h3 {
+            font-weight: 700;
+            font-size: 24px;
+            text-align: center;
+        }
+
+        .heading {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 80px;
+            gap: 20px;
+
+            span {
+                background: rgb(12, 6, 152);
+                color: white;
+                padding: 10px;
+                border-radius: 8px;
+
+
+            }
+
+            p {
+                width: 450px;
+                text-align: justify;
+                font-weight: 400;
+                font-size: 18px;
+                font-style: Helvetica;
+                color: rgba(92, 92, 92, 1);
+
+            }
+        }
+    }
+}
