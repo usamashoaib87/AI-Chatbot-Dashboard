@@ -28,12 +28,12 @@ const Inbox = () => {
         </div>
         <div className="chat-search">
           <input type="text" placeholder="Search..." />
-          <img src={ima} alt="" />
+          <img src={ima} alt="ujnb" />
         </div>
         <div className="chat-list">
           {chats.map((chat, index) => (
             <div key={index} className="chat-item" onClick={() => handleChatClick(chat)}>
-              <div className="chat-avatar"><img src={image} alt="" /></div>
+              <div className="chat-avatar"><img src={image} alt="zxcvb" /></div>
               <div className="chat-info">
                 <div className="chat-title">{chat.title}</div>
                 <div className="chat-message">{chat.message}</div>

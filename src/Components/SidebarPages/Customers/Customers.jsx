@@ -18,7 +18,7 @@ const Customers = () => {
       <div className="app">
         <Search />
         <div className="second">
-          <img src={image} alt="" />
+          <img src={image} alt="pl" />
           <button onClick={() => setShowAddDataModal(true)}>
             Create Attribute
           </button>

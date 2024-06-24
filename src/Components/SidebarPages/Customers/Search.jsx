@@ -14,7 +14,7 @@ const Search = ({ onSearch, searchTerm }) => {
         value={searchTerm}
         onChange={onSearch}
       />
-      <img src={ima} alt="" />
+      <img src={ima} alt="vb" />
     </div>
   );
 };

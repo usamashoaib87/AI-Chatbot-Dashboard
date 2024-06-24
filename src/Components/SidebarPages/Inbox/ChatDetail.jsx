@@ -33,22 +33,22 @@ const ChatDetail = () => {
           <span className="message-time">9:00 AM</span>
           <div className="chat-card1">
             <p>Hello there, i need some advice about halloween.</p>
-            <img src={ima} alt="" />
-            <img src={im} alt="" />
+            <img src={ima} alt="cvbn" />
+            <img src={im} alt="uj" />
           </div>
         </div>
         <div className="chat-message2">
           <span className="message-time">9:00 AM</span>
           <div className="chat-card2">
-            <img src={imag} alt="" />
+            <img src={imag} alt="ikm" />
             <p>
               Of course! I'd be happy to help you with Halloween advice. What
               specifically do you need assistance with? Whether it's costume
               ideas, party planning, decorations, or anything else related to
               Halloween, feel free to let me know how I can assist you!
             </p>
-            <img src={image} alt="" />
-            <img src={image1} alt="" />
+            <img src={image} alt="ijh" />
+            <img src={image1} alt="wert" />
           </div>
         </div>
         <div className="chat-message3">
@@ -58,14 +58,14 @@ const ChatDetail = () => {
               i need idea about what costume i wear in halloween. can you give
               me some suggestion?
             </p>
-            <img src={image2} alt="" />
-            <img src={im} alt="" />
+            <img src={image2} alt="erty" />
+            <img src={im} alt="sdf" />
           </div>
         </div>
         <div className="chat-message4">
           <span className="message-time">9:00 AM</span>
           <div className="chat-card4">
-            <img src={imag} alt="" />
+            <img src={imag} alt="zxc" />
             <p>
               Certainly! Choosing a Halloween costume can be a lot of fun. Here
               are some costume ideas across different themes, and you can pick
@@ -76,16 +76,16 @@ const ChatDetail = () => {
               4. Mummy Werewolf <br />
               5. Zombie <br />
             </p>
-            <img src={image} alt="" />
-            <img src={image1} alt="" />
+            <img src={image} alt="wdsc" />
+            <img src={image1} alt="tgv" />
           </div>
         </div>
       </div>
       <div className="chat-input">
         <input type="text" placeholder="Ask me anything..." />
-        <img src={imagec} alt="" />
-        <img src={mic} alt="" />
-        <img src={send} alt="" />
+        <img src={imagec} alt="ujn" />
+        <img src={mic} alt="rfc" />
+        <img src={send} alt="efv" />
       </div>
       {showAddDataModal && <Pop onClose={handleCloseModal} />}
     </div>

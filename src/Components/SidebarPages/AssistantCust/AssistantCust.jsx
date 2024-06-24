@@ -24,7 +24,7 @@ const AssistantCust = () => {
       <div className="assistant-customization">
         <label htmlFor="bot-profile-picture">Bot Profile Picture</label>
         <div className="bot-profile-picture">
-          <img src={image} alt="" />
+          <img src={image} alt="gfd" />
           <p>Allowed file types: png, jpg, jpeg.</p>
         </div>
         <div className="bot-theme">
@@ -96,14 +96,14 @@ const AssistantCust = () => {
       </div>
       <div className="smallbox">
         <div className="header2">
-          <img src={image1} alt="" />
+          <img src={image1} alt="iyui" />
         </div>
         <div className="content">
           <p>Hey!How can I help you today?</p>
         </div>
         <div className="foot">
           <input type="text" placeholder="   Ask me anything" />
-          <img className="reco" src={reco} alt="" />
+          <img className="reco" src={reco} alt="hj" />
         </div>
       </div>
     </div>

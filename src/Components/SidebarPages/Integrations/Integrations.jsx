@@ -33,57 +33,57 @@ const Integrations = () => {
       </div>
       <div className="cards">
         <div>
-          <img src={ima1} alt="" />
-          <img src={imag1} alt="" />
+          <img src={ima1} alt="tfcv" />
+          <img src={imag1} alt="vcd" />
           <button onClick={() => setShowAddDataModal(true)} className="btn">
             Integrated
           </button>
         </div>
         <div>
-          <img src={ima2} alt="" />
-          <img src={imag2} alt="" />
+          <img src={ima2} alt="tfv" />
+          <img src={imag2} alt="uytfv" />
           <button onClick={() => setShowAddDataModal(true)} className="btn">
             Integrated
           </button>
         </div>
         <div>
-          <img src={ima3} alt="" />
-          <img src={imag3} alt="" />
+          <img src={ima3} alt="xcv" />
+          <img src={imag3} alt="ijn" />
           <button onClick={() => setShowAddDataModal(true)} className="btn">
             Integrated
           </button>
         </div>
         <div>
-          <img src={ima4} alt="" />
-          <img src={imag4} alt="" />
+          <img src={ima4} alt="rdcv" />
+          <img src={imag4} alt="dcvb" />
           <button onClick={() => setShowAddDataModal(true)} className="btn">
             Integrated
           </button>
         </div>
         <div>
-          <img src={ima5} alt="" />
-          <img src={imag5} alt="" />
+          <img src={ima5} alt="jn" />
+          <img src={imag5} alt="nnn" />
           <button onClick={() => setShowAddDataModal(true)} className="btn">
             Integrated
           </button>
         </div>
         <div>
-          <img src={ima6} alt="" />
-          <img src={imag6} alt="" />
+          <img src={ima6} alt="rd" />
+          <img src={imag6} alt="ol" />
           <button onClick={() => setShowAddDataModal(true)} className="btn">
             Integrated
           </button>
         </div>
         <div>
-          <img src={ima7} alt="" />
-          <img src={imag7} alt="" />
+          <img src={ima7} alt="uj" />
+          <img src={imag7} alt="j" />
           <button onClick={() => setShowAddDataModal(true)} className="btn">
             Integrated
           </button>
         </div>
         <div>
-          <img src={ima8} alt="" />
-          <img src={imag8} alt="" />
+          <img src={ima8} alt="jn" />
+          <img src={imag8} alt="d" />
           <button onClick={() => setShowAddDataModal(true)} className="btn">
             Integrated
           </button>
