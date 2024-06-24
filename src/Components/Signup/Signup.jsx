@@ -11,7 +11,7 @@ const Signup = () => {
       <div className="main">
         <div className="wrapper">
           <div className="header">
-            <img src={img}></img>
+            <img src={img} alt='trd'></img>
           </div>
           <div className="signinform">
             <h1>Sign Up</h1>
@@ -68,9 +68,9 @@ const Signup = () => {
             <p>Consolidate all your meetings, track their progress, participants, and details in one central location</p>
           </div>
           <div className='card-stack'>
-            <img class="card1" src={i}></img>
-            <img class="card2" src={im}></img>
-            <img class="card3" src={ima}></img>
+            <img class="card1" src={i} alt='nbv'></img>
+            <img class="card2" src={im} alt='nbv'></img>
+            <img class="card3" src={ima} alt='nbv'></img>
           </div>
         </div>
       </div>

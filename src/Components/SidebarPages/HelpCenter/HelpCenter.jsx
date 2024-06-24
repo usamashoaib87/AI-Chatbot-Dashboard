@@ -3,7 +3,7 @@ import React from 'react'
 const HelpCenter = () => {
   return (
     <div className='data'>
-            //////////////////////////////////////////////////////This page is for help center data.//////////////////////////////////////////////
+          <h1>help center screen</h1>
 
     </div>
   )

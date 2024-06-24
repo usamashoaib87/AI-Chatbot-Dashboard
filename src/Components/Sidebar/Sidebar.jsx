@@ -21,13 +21,13 @@ const Sidebar = () => {
     <>
       <div className="sidebar">
         <div className="inner">
-          <img src={im}></img>
-          <img className="topicon" src={ima}></img>
+          <img src={im} alt='dfgh'></img>
+          <img className="topicon" src={ima} alt='gfd'></img>
         </div>
         <div className="main">
           <span>Main Menu</span>
           <div>
-            <img src={li1}></img>
+            <img src={li1} alt='dfgh'></img>
             <a>
               <Link to="/Monitor">Monitor</Link>
             </a>
@@ -39,38 +39,38 @@ const Sidebar = () => {
             </a>
           </div>
           <div>
-            <img src={li3}></img>
+            <img src={li3} alt='dfgh'></img>
             <a>
               <Link to="/Inbox">Inbox</Link>
             </a>
           </div>
 
           <div>
-            <img src={li4}></img>
+            <img src={li4} alt='dfgh'></img>
             <a>
               <Link to="/Customers">Customers</Link>
             </a>
           </div>
           <div>
-            <img src={li5}></img>
+            <img src={li5} alt='dfgh'></img>
             <a>
               <Link to="/Integrations">Integrations</Link>
             </a>
           </div>
           <div>
-            <img src={li6}></img>
+            <img src={li6} alt='dfgh'></img>
             <a>
               <Link to="/AssistantCust">Assistant Customization</Link>
             </a>
           </div>
           <div>
-            <img src={li7}></img>
+            <img src={li7} alt='dfgh'></img>
             <a>
               <Link to="/HelpCenter">Help Center</Link>
             </a>
           </div>
           <div>
-            <img src={li8}></img>
+            <img src={li8} alt='dfgh'></img>
             <a>
               <Link to="/Settings">Settings</Link>
             </a>
@@ -79,22 +79,22 @@ const Sidebar = () => {
             <a>
               <Link to="/">Assistant</Link>
             </a>
-            <img src={li9}></img>
+            <img src={li9} alt='dfgh'></img>
           </div>
           <div>
-            <img src={li10}></img>
+            <img src={li10} alt='dfgh'></img>
             <a>
               <Link to="/">Assistant Behavior</Link>
             </a>
           </div>
           <div>
-            <img src={li11}></img>
+            <img src={li11} alt='dfgh'></img>
             <a>
               <Link to="/">Assistant Testing</Link>
             </a>
           </div>
           <div>
-            <img src={li12}></img>
+            <img src={li12} alt='dfgh'></img>
             <a>Sarah</a>
           </div>
         </div>
