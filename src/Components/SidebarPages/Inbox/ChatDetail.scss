@@ -17,6 +17,7 @@
             color: white;
             padding: 10px;
             margin-top: 10px;
+            cursor: pointer;
         }
 
         h2 {
@@ -38,15 +39,133 @@
 
         .message-time1 {
             text-align: center;
+            color: rgba(185, 185, 185, 1);
 
         }
 
         .chat-message1 {
-            margin-left: 470px;
+            .message-time {
+                margin-left: 800px;
+            }
+
+            .chat-card1 {
+                width: 420px;
+                height: 110px;
+                background: rgba(232, 246, 255, 1);
+                border-radius: 12px;
+                margin-left: 460px;
+
+                p {
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: Helvetica;
+                    color: rgba(52, 52, 52, 1);
+                    margin: 0px 0px 0px 20px;
+                    padding-top: 20px;
+                }
+
+                :nth-child(2) {
+                    margin-left: 20px;
+                }
+
+                :nth-child(3) {
+                    margin: 25px 0px 0px 380px;
+                }
+            }
+        }
+
+        .chat-message2 {
+
+            .chat-card2 {
+                width: 620px;
+                height: 230px;
+                border-radius: 12px;
+                background-color: white;
+
+                :nth-child(1) {
+                    margin: 20px 0px 0px 20px;
+                }
+
+                p {
+                    margin: 20px 20px 10px 20px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: Helvetica;
+                    color: rgba(52, 52, 52, 1);
+                }
+
+                :nth-child(3) {
+                    margin-left: 20px;
+                }
+
+                :nth-child(4) {
+                    margin: 10px 0px 0px 20px;
+                }
+            }
+
         }
 
         .chat-message3 {
-            margin-left: 260px;
+            .message-time {
+                margin-left: 800px;
+            }
+
+            .chat-card3 {
+                width: 620px;
+                height: 130px;
+                background: rgba(232, 246, 255, 1);
+                border-radius: 12px;
+                margin-left: 260px;
+
+                p {
+                    margin: 0px 20px 10px 20px;
+                    padding-top: 20px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: Helvetica;
+                    color: rgba(52, 52, 52, 1);
+                }
+
+                :nth-child(2) {
+                    margin-left: 20px;
+                }
+
+                :nth-child(3) {
+                    margin: 15px 10px 0px 580px;
+                }
+            }
+
+
+        }
+
+        .chat-message4 {
+
+            .chat-card4 {
+                width: 620px;
+                height: 320px;
+                border-radius: 12px;
+                background-color: white;
+
+                :nth-child(1) {
+                    margin: 20px 0px 0px 20px;
+                }
+
+                p {
+                    margin: 20px 20px 10px 20px;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-family: Helvetica;
+                    color: rgba(52, 52, 52, 1);
+                }
+
+                :nth-child(3) {
+                    margin-left: 20px;
+                }
+
+                :nth-child(4) {
+                    margin: 10px 0px 0px 20px;
+                }
+            }
         }
     }
 }

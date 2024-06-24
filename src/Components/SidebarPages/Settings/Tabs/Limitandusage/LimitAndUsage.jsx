@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Settings.scss';
+import '../../Settings.scss';
 const LimitAndUsage = () => {
     const usageData = {
         contactsCreated: { value: 3435, max: 5000 },

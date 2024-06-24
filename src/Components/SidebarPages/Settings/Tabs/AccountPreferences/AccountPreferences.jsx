@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Settings.scss'
+import '../../Settings.scss'
 
 const AccountPreferences = () => {
   return (

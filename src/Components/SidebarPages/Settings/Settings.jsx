@@ -3,11 +3,11 @@
 
 import React, { useState } from "react";
 import "./Settings.scss";
-import LimitAndUsage from "./Tabs/LimitAndUsage";
-import AssistantPreferences from "./Tabs/AssistantPreferences";
-import AccountPreferences from "./Tabs/AccountPreferences";
-import ApiKeys from "./Tabs/ApiKeys";
-import MyTeam from "./Tabs/MyTeam";
+import LimitAndUsage from "./Tabs/Limitandusage/LimitAndUsage";
+import AssistantPreferences from "./Tabs/AssistantPreferences/AssistantPreferences";
+import AccountPreferences from "./Tabs/AccountPreferences/AccountPreferences";
+import ApiKeys from "./Tabs/ApiKeys/ApiKeys";
+import MyTeam from "./Tabs/MyTeam/MyTeam";
 const tabs = [
   { name: "Limit and Usage", content: <LimitAndUsage /> },
   { name: "Assistant Preferences", content: <AssistantPreferences /> },

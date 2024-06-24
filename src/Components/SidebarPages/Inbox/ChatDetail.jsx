@@ -1,10 +1,12 @@
 import React, { useState } from "react";
 import "./ChatDetail.scss";
-import im from "../../../assets/chat1.png";
-import ima from "../../../assets/chat2.png";
-import imag from "../../../assets/chat3.png";
-import image from "../../../assets/chat4.png";
+import im from "../../../assets/edit.png";
+import ima from "../../../assets/line1.png";
 import imagec from "../../../assets/imagec.png";
+import imag from "../../../assets/illustration.png";
+import image from "../../../assets/line2.png";
+import image2 from "../../../assets/line3.png";
+import image1 from "../../../assets/menu.png";
 import mic from "../../../assets/mic.png";
 import send from "../../../assets/send.png";
 import Pop from "./Pop";
@@ -28,16 +30,55 @@ const ChatDetail = () => {
       <div className="chat-detail-messages">
         <div className="message-time1">Today, 9:00 AM</div>
         <div className="chat-message1">
-          <img src={im} alt="" />
+          <span className="message-time">9:00 AM</span>
+          <div className="chat-card1">
+            <p>Hello there, i need some advice about halloween.</p>
+            <img src={ima} alt="" />
+            <img src={im} alt="" />
+          </div>
         </div>
         <div className="chat-message2">
-          <img src={ima} alt="" />
+          <span className="message-time">9:00 AM</span>
+          <div className="chat-card2">
+            <img src={imag} alt="" />
+            <p>
+              Of course! I'd be happy to help you with Halloween advice. What
+              specifically do you need assistance with? Whether it's costume
+              ideas, party planning, decorations, or anything else related to
+              Halloween, feel free to let me know how I can assist you!
+            </p>
+            <img src={image} alt="" />
+            <img src={image1} alt="" />
+          </div>
         </div>
         <div className="chat-message3">
-          <img src={imag} alt="" />
+          <span className="message-time">9:01 AM</span>
+          <div className="chat-card3">
+            <p>
+              i need idea about what costume i wear in halloween. can you give
+              me some suggestion?
+            </p>
+            <img src={image2} alt="" />
+            <img src={im} alt="" />
+          </div>
         </div>
         <div className="chat-message4">
-          <img src={image} alt="" />
+          <span className="message-time">9:00 AM</span>
+          <div className="chat-card4">
+            <img src={imag} alt="" />
+            <p>
+              Certainly! Choosing a Halloween costume can be a lot of fun. Here
+              are some costume ideas across different themes, and you can pick
+              one based on your interests: <br />  <br />         
+              1. Classic Horror Icons: <br />
+              2. Dracula <br />
+              3. Frankenstein's Monster <br />
+              4. Mummy Werewolf <br />
+              5. Zombie <br />
+            </p>
+            <img src={image} alt="" />
+            <img src={image1} alt="" />
+          </div>
         </div>
       </div>
       <div className="chat-input">

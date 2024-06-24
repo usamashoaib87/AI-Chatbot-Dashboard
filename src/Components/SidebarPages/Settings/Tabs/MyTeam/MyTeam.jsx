@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Settings.jsx';
+import '../../Settings.jsx';
 const MyTeam = () => {
   return (
     <div>
