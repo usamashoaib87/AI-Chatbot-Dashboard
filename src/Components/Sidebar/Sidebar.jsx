@@ -28,74 +28,74 @@ const Sidebar = () => {
           <span>Main Menu</span>
           <div>
             <img src={li1} alt='dfgh'></img>
-            <a>
+            <a href=''>
               <Link to="/Monitor">Monitor</Link>
             </a>
           </div>
           <div>
-            <img className="image2" src={li2}></img>
-            <a>
+            <img className="image2" src={li2} alt='gf'></img>
+            <a href=''>
               <Link to="/TrainingData">Training Data</Link>
             </a>
           </div>
           <div>
             <img src={li3} alt='dfgh'></img>
-            <a>
+            <a href=''>
               <Link to="/Inbox">Inbox</Link>
             </a>
           </div>
 
           <div>
             <img src={li4} alt='dfgh'></img>
-            <a>
+            <a href=''>
               <Link to="/Customers">Customers</Link>
             </a>
           </div>
           <div>
             <img src={li5} alt='dfgh'></img>
-            <a>
+            <a href=''>
               <Link to="/Integrations">Integrations</Link>
             </a>
           </div>
           <div>
             <img src={li6} alt='dfgh'></img>
-            <a>
+            <a href=''>
               <Link to="/AssistantCust">Assistant Customization</Link>
             </a>
           </div>
           <div>
             <img src={li7} alt='dfgh'></img>
-            <a>
+            <a href=''>
               <Link to="/HelpCenter">Help Center</Link>
             </a>
           </div>
           <div>
             <img src={li8} alt='dfgh'></img>
-            <a>
+            <a href=''>
               <Link to="/Settings">Settings</Link>
             </a>
           </div>
           <div>
-            <a>
+            <a href=''>
               <Link to="/">Assistant</Link>
             </a>
             <img src={li9} alt='dfgh'></img>
           </div>
           <div>
             <img src={li10} alt='dfgh'></img>
-            <a>
+            <a href=''>
               <Link to="/">Assistant Behavior</Link>
             </a>
           </div>
           <div>
             <img src={li11} alt='dfgh'></img>
-            <a>
+            <a href=''>
               <Link to="/">Assistant Testing</Link>
             </a>
           </div>
           <div>
             <img src={li12} alt='dfgh'></img>
-            <a>Sarah</a>
+            <a href=''>Sarah</a>
           </div>
         </div>
       </div>
