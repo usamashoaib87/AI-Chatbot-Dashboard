@@ -355,3 +355,197 @@ input:checked+.slider:before {
 
 ////////account preferences/////
 
+.acc-pref {
+    :nth-child(1) {
+        background-color: white;
+        border-radius: 12px 12px 0px 0px;
+        padding: 5px 10px 10px 10px;
+        margin: 20px 20px 5px 0px;
+
+        h3 {
+            font-family: Helvetica;
+            font-weight: 700;
+            font-size: 20px;
+            color: rgba(52, 52, 52, 1);
+            margin-left: 5px;
+        }
+    }
+
+    .pass-detail {
+        background-color: white;
+        border-radius: 0px 0px 12px 12px;
+        height: 300px;
+        margin-right: 20px;
+
+        :nth-child(1) {
+            font-family: Helvetica;
+            font-weight: 700;
+            font-size: 18px;
+            color: rgba(94, 98, 120, 1);
+            margin: 0px 0px 0px 20px;
+            padding-top: 20px;
+        }
+
+        :nth-child(2) {
+            background: rgba(246, 246, 250, 1);
+            border: none;
+            border-radius: 8px;
+            margin: 0px 0px 0px 20px;
+            height: 40px;
+            width: 500px;
+        }
+
+        input::-webkit-input-placeholder {
+            font-size: 20px;
+            font-weight: 400;
+            color: rgba(126, 130, 153, 1);
+        }
+
+        .retype {
+            display: flex;
+            align-items: center;
+
+            :nth-child(1) {
+                margin: 0px 0px 0px 10px;
+
+                :nth-child(1) {
+                    font-family: Helvetica;
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: rgba(94, 98, 120, 1);
+                    margin: 0px 0px 0px 0px;
+
+                }
+
+                :nth-child(2) {
+                    background: rgba(246, 246, 250, 1);
+                    border: none;
+                    border-radius: 8px;
+                    margin: 0px 0px 0px 0px;
+                    height: 40px;
+                    width: 500px;
+                }
+            }
+
+            :nth-child(2) {
+                margin-bottom: 60px;
+
+                :nth-child(1) {
+                    font-family: Helvetica;
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: rgba(94, 98, 120, 1);
+                    margin: 0px 0px 10px 0px;
+
+                }
+
+                :nth-child(2) {
+                    background: rgba(246, 246, 250, 1);
+                    border: none;
+                    border-radius: 8px;
+                    margin: 0px 0px 0px 0px;
+                    height: 40px;
+                    width: 500px;
+                }
+            }
+        }
+
+        button {
+            background-color: rgb(12, 6, 152);
+            color: white;
+            border-radius: 8px;
+            padding: 15px;
+            margin: 20px 0px 0px 20px;
+        }
+
+    }
+}
+
+////////api keys/////
+
+.api-keys {
+    :nth-child(1) {
+        background-color: white;
+        border-radius: 12px 12px 0px 0px;
+        padding: 5px 10px 10px 10px;
+        margin: 20px 20px 5px 0px;
+
+        p {
+            font-family: Helvetica;
+            font-weight: 600;
+            font-size: 18px;
+            color: rgba(63, 66, 84, 1);
+        }
+    }
+
+    .inner-input {
+        height: 100px;
+        background-color: white;
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+
+        :nth-child(1) {
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+
+            label {
+                font-weight: 600;
+                font-size: 18px;
+                color: rgba(94, 98, 120, 1);
+                font-family: Helvetica;
+                margin-left: 20px;
+            }
+
+            input {
+                height: 40px;
+                width: 400px;
+                border-radius: 8px;
+                background: rgba(241, 241, 242, 1);
+                border: none;
+                margin-left: 20px;
+                margin-top: 10px;
+            }
+        }
+
+        :nth-child(2) {
+            margin: 0px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
+
+            label {
+                font-weight: 600;
+                font-size: 18px;
+                color: rgba(94, 98, 120, 1);
+                font-family: Helvetica;
+                margin-left: 20px;
+
+            }
+
+            select {
+                height: 40px;
+                width: 400px;
+                border-radius: 8px;
+                background: rgba(241, 241, 242, 1);
+                border: none;
+                margin-left: 20px;
+                margin-top: 10px;
+            }
+        }
+    }
+
+    :nth-child(3) {
+        height: 100px;
+        background-color: white;
+        border-radius: 0px 0px 12px 12px;
+        margin: 5px 20px 0px 0px;
+
+        button {
+            background-color: rgb(12, 6, 152);
+            border-radius: 8px;
+            color: white;
+            border: none;
+            padding: 15px;
+            margin: 30px 0px 0px 20px;
+        }
+    }
+}
