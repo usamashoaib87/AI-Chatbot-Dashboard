@@ -16,7 +16,7 @@ function App() {
       <Router>
         <Sidebar />
         <Routes>
-          <Route path="/Monitor" element={<Monitor />} />
+          <Route path="/" element={<Monitor />} />
           <Route path="/TrainingData" element={<TrainingData />} />
           <Route path="/Inbox" element={<Inbox />} />
           <Route path="/Customers" element={<Customers />} />
