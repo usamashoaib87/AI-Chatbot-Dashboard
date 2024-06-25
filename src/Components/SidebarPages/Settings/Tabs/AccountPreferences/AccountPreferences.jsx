@@ -5,7 +5,7 @@ const AccountPreferences = () => {
   return (
     <div>
       <h2>Account Preferences</h2>
-      <p>Content for Account Preferences</p>
+      
     </div>
   )
 }
