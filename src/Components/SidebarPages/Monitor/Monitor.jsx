@@ -1,7 +1,7 @@
 import React from 'react'
 import './Monitor.scss';
 import {Bar} from 'react-chartjs-2';
-import Chart from 'chart.js/auto';
+// import Chart from 'chart.js/auto';
 
 const Monitor = () => {
   return (
@@ -61,7 +61,8 @@ const Monitor = () => {
                 },
               ],
               options :{
-                maintainAspectRatio: false
+                maintainAspectRatio: false,
+                
               },
               
             }}
