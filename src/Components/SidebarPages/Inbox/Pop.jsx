@@ -10,6 +10,7 @@ const Pop = ({ onClose }) => {
             fontSize: "25px",
             color: "rgba(133, 144, 163, 1)",
             margin: "10px 10px 0px 770px",
+            cursor: "pointer",
           }}
           onClick={onClose}
         ></i>

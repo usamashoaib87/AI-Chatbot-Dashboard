@@ -10,6 +10,7 @@ const Popup = ({ onClose }) => {
             fontSize: "25px",
             color: "rgba(133, 144, 163, 1)",
             margin: "10px 10px 0px 665px",
+            cursor: "pointer",
           }}
           onClick={onClose}
         ></i>

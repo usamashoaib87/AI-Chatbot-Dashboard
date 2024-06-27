@@ -36,6 +36,7 @@ body {
     border-radius: 8px;
     background: rgb(12, 6, 152);
     border-style: none;
+    cursor: pointer;
 }
 
 .toggle {
@@ -53,6 +54,7 @@ body {
         height: 39px;
         border-radius: 8px;
         border-style: none;
+        cursor: pointer;
     }
 
     .toggle-button.active {
