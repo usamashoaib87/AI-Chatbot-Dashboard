@@ -1,19 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "./AssistantCust.scss";
 import image from "../../../assets/botpic.png";
 import image1 from "../../../assets/labelgroup.png";
 import reco from "../../../assets/reco.png";
-const AssistantCust = () => {
-  const [botTheme, setBotTheme] = useState("#0C0698");
-  const [botMessageColor, setBotMessageColor] = useState("#0C0698");
-  const [userMessageColor, setUserMessageColor] = useState("#0C0698");
-  const [accentsColor, setAccentsColor] = useState("#0C0698");
-  const [backgroundColor, setBackgroundColor] = useState("#0C0698");
-  const [sidebarColor, setSidebarColor] = useState("#0C0698");
-  const [botFirstMessage, setBotFirstMessage] = useState(
-    "Hey! How can I help you today?"
-  );
+import Colors from "./Colors";
 
+const AssistantCust = () => {
   return (
     <div className="data">
       <div className="header1">
@@ -27,69 +19,23 @@ const AssistantCust = () => {
           <img src={image} alt="gfd" />
           <p>Allowed file types: png, jpg, jpeg.</p>
         </div>
-        <div className="bot-theme">
-          <label htmlFor="bot-theme">Choose Bot theme</label>
-          <input
-            type="color"
-            id="bot-theme"
-            value={botTheme}
-            onChange={(e) => setBotTheme(e.target.value)}
-          />
-        </div>
-        <div className="bot-message-color">
-          <label htmlFor="bot-message-color">Bot Message Color</label>
-          <input
-            type="color"
-            id="bot-message-color"
-            value={botMessageColor}
-            onChange={(e) => setBotMessageColor(e.target.value)}
-          />
-        </div>
-        <div className="user-message-color">
-          <label htmlFor="user-message-color">User Message Color</label>
-          <input
-            type="color"
-            id="user-message-color"
-            value={userMessageColor}
-            onChange={(e) => setUserMessageColor(e.target.value)}
-          />
-        </div>
-        <div className="accents-color">
-          <label htmlFor="accents-color">Accents Color</label>
-
-          <input
-            type="color"
-            id="accents-color"
-            value={accentsColor}
-            onChange={(e) => setAccentsColor(e.target.value)}
-          />
-        </div>
-        <div className="background-color">
-          <label htmlFor="background-color">Background Color</label>
-
-          <input
-            type="color"
-            id="background-color"
-            value={backgroundColor}
-            onChange={(e) => setBackgroundColor(e.target.value)}
-          />
-        </div>
-        <div className="sidebar-color">
-          <label htmlFor="sidebar-color">Side Bar Color</label>
-          <input
-            type="color"
-            id="sidebar-color"
-            value={sidebarColor}
-            onChange={(e) => setSidebarColor(e.target.value)}
-          />
+        <div className="components">
+          <div className="inner-div">
+            <Colors header="Choose Bot theme " />
+            <Colors header="User Message Color " />
+            <Colors header="Background Color " />
+          </div>
+          <div className="inner-div">
+            <Colors header="Bot Message Color " />
+            <Colors header="Accents Color " />
+            <Colors header="Side Bar Color " />
+          </div>
         </div>
         <div className="bot-first-message">
-          <label htmlFor="bot-first-message">Bot First Message</label>
-          <br />
+          <p>Bot First Message</p>
           <input
             id="bot-first-message"
-            value={botFirstMessage}
-            onChange={(e) => setBotFirstMessage(e.target.value)}
+            placeholder="Hey! How can I help you today?"
           />
         </div>
         <button>Save the changes</button>

@@ -62,11 +62,10 @@
     align-items: center;
     z-index: 10;
 
-}
-
-.color {
-    width: 900px;
-    height: 450px;
-    background-color: white;
-    z-index: 10;
+    .color {
+        width: 900px;
+        height: 450px;
+        background-color: white;
+        z-index: 10;
+    }
 }
